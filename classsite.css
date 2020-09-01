@@ -4,10 +4,10 @@ body {color: white;
   background-image: url("me.gif");
 }
 h1 {font-family: sans-serif;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 p {font-family: sans-serif;
 }
 ul {font-family: sans-serif;
 }
 li {color: white;}
-/* https://user-images.githubusercontent.com/6901805/58038897-167f0280-7ae6-11e9-94eb-88e880a25f0f.gif */
