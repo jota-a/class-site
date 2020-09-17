@@ -1,3 +1,28 @@
+.button{
+    background:;
+    right:0vw;
+    top:90vh;
+    height:50px;
+    width:100px;
+    text-align: center;
+    position: fixed;
+    display:flex;
+    justify-content: center;
+    line-height: 50px;
+    color:;
+    font-family: sans-serif;
+      font-family: 'Gloria Hallelujah', cursive;
+      font-size: 24pt;
+}
+
+a{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+  color:gray;
+}
+
 .center {
   display: block;
   margin-left: auto;
