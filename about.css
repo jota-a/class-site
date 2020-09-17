@@ -1,0 +1,31 @@
+
+.socialcontainer{
+  background:;
+  height:50px;
+  width:50vw;
+  justify-content:center;
+  text-align: center;
+  margin:auto;
+}
+
+.imgcontainer{
+  background:;
+  display:flex;
+}
+
+.center {
+  justify-content: center;
+}
+
+.right{
+  justify-content: flex-end;
+}
+
+h1 {font-family: sans-serif;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+}
+p {font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
