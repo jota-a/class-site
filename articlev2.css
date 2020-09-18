@@ -6,6 +6,10 @@
 } */
 /* ^^^ making a regular, static box */
 
+body{
+  margin:0;
+}
+
 .header{
   background: white;
   position: fixed;
@@ -61,23 +65,27 @@ padding:30px;
   width:100vw;
   color: white;
   text-align:center;
-  margin:auto;
+  
 }
 
 p{
   font-family:monospace;
   font-size: 12pt;
+  margin-left: 10px;
 }
 h1{
   font-family:monospace;
   font-size: 36pt;
+
 }
 h2{
   font-family:monospace;
+  margin-left: 10px;
 }
 h3{
   font-family:monospace;
   font-size: 12pt;
+  margin-left: 10px;
 }
 .highlight{color:blue;
 background:yellow;
