@@ -1,0 +1,174 @@
+
+
+body{
+  margin:0;
+  overflow-y: hidden;
+}
+
+a:link{
+  text-decoration: none;
+color:white;
+}
+a:visited{
+  text-decoration: none;
+  color:gray;
+}
+
+
+.button{
+    background:;
+    right:0vw;
+    top:90vh;
+    height:50px;
+    width:100px;
+    text-align: center;
+    position: fixed;
+    display:flex;
+    justify-content: center;
+    line-height: 50px;
+    color:;
+    font-family: sans-serif;
+      font-family: 'Gloria Hallelujah', cursive;
+      font-size: 24pt;
+}
+
+.carti{
+  width:20vw;
+  height:30vh;
+  display:flex;
+  margin-top: 34vh;
+z-index:-1;
+position: absolute;
+}
+
+.frank{
+  width:25vw;
+  height:20vh;
+  display:flex;
+  margin-left:18vw;
+  margin-top: 39vh;
+z-index:-1;
+position: absolute;
+}
+
+.tyler{
+  width:30vw;
+  height:38vh;
+  display:flex;
+  margin-left:35vw;
+  margin-top:30vh;
+z-index:-1;
+position: absolute;
+}
+
+
+.thug{
+  width:40vw;
+  height:30vh;
+  display:flex;
+  margin-left: 50vw;
+  margin-top: 34vh;
+z-index:-1;
+position: absolute;
+}
+
+.blueface{
+  width:25vw;
+  height:25vh;
+  display:flex;
+  margin-left:78vw;
+  margin-top: 36vh;
+z-index:-1;
+position: absolute;
+}
+
+.main-container{
+width:100vw;
+height:100vh;
+position: absolute;
+background:;
+display:flex;
+align-items:center;
+  z-index:;
+}
+
+.png-container{
+  width:100vw;
+  height:20vh;
+  display:flex;
+  align-items: center;
+  background:white;
+  z-index:1;
+  flex-wrap: wrap;
+}
+
+.circle-container{
+  width:100vw;
+  height:20vh;
+  display:flex;
+  position:absolute;
+  align-items: center;
+  background:;
+  z-index:;
+}
+
+  .circle-r{
+    width:20vw;
+    height:20vw;
+    background:red;
+    border-radius:50%;
+      z-index:;
+    animation:runup 2s infinite alternate;
+  }
+
+  .circle-o{
+    width:20vw;
+    height:20vw;
+    background:orange;
+    border-radius:50%;
+    animation:rundown 3s infinite alternate;
+  }
+
+  .circle-y{
+    width:20vw;
+    height:20vw;
+    background:yellow;
+    border-radius:50%;
+    animation:runup 4s infinite alternate;
+  }
+
+  .circle-g{
+    width:20vw;
+    height:20vw;
+    background:green;
+    border-radius:50%;
+    animation:rundown 3s infinite alternate;
+  }
+
+  .circle-b{
+    width:20vw;
+    height:20vw;
+    background:blue;
+    border-radius:50%;
+    animation:runup 2s infinite alternate;
+  }
+
+@keyframes runup{
+  0%{
+
+  }
+  100%{
+      transform: translateY(-70vh);
+  }
+
+}
+
+@keyframes rundown{
+  0%{
+
+  }
+  100%{
+      transform: translateY(70vh);
+  }
+
+}
