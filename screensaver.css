@@ -3,6 +3,7 @@
 body{
   margin:0;
   overflow-y: hidden;
+  animation: backgroundchange 24s infinite alternate;
 }
 
 a:link{
@@ -171,4 +172,13 @@ align-items:center;
       transform: translateY(70vh);
   }
 
+}
+
+@keyframes backgroundchange{
+  0%{
+    background:white;
+  }
+  100%{
+    background:black;
+  }
 }
