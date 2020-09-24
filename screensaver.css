@@ -3,7 +3,7 @@
 body{
   margin:0;
   overflow-y: hidden;
-  animation: backgroundchange 24s infinite alternate;
+  /* animation: backgroundchange 24s infinite alternate; */
 }
 
 a:link{
