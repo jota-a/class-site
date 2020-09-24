@@ -174,11 +174,11 @@ align-items:center;
 
 }
 
-@keyframes backgroundchange{
+/* @keyframes backgroundchange{
   0%{
     background:white;
   }
   100%{
     background:black;
   }
-}
+} */
