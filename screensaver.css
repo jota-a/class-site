@@ -3,6 +3,7 @@
 body{
   margin:0;
   overflow-y: hidden;
+  overflow-x: hidden;
   /* animation: backgroundchange 24s infinite alternate; */
 }
 
@@ -75,10 +76,10 @@ position: absolute;
 
 .blueface{
   width:25vw;
-  height:25vh;
+  height:24vh;
   display:flex;
   margin-left:78vw;
-  margin-top: 36vh;
+  margin-top: 37vh;
 z-index:-1;
 position: absolute;
 }
@@ -121,6 +122,9 @@ align-items:center;
       z-index:;
     animation:runup 2s infinite alternate;
   }
+  .circle-r:active{
+    animation: rundown 0s;
+  }
 
   .circle-o{
     width:20vw;
@@ -128,6 +132,9 @@ align-items:center;
     background:orange;
     border-radius:50%;
     animation:rundown 3s infinite alternate;
+  }
+  .circle-o:active{
+    animation: runup 0s;
   }
 
   .circle-y{
@@ -137,6 +144,9 @@ align-items:center;
     border-radius:50%;
     animation:runup 4s infinite alternate;
   }
+  .circle-y:active{
+    animation: rundown 0s;
+  }
 
   .circle-g{
     width:20vw;
@@ -145,6 +155,10 @@ align-items:center;
     border-radius:50%;
     animation:rundown 3s infinite alternate;
   }
+  .circle-g:active{
+    animation: runup 0s;
+  }
+
 
   .circle-b{
     width:20vw;
@@ -152,6 +166,9 @@ align-items:center;
     background:blue;
     border-radius:50%;
     animation:runup 2s infinite alternate;
+  }
+  .circle-b:active{
+    animation: rundown 0s;
   }
 
 @keyframes runup{
