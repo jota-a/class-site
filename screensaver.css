@@ -124,6 +124,7 @@ align-items:center;
   }
   .circle-r:active{
     animation: rundown 0s;
+    /* transform:scale(2) */
   }
 
   .circle-o{
