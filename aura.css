@@ -1,0 +1,161 @@
+
+body{
+  margin:0;
+  background-color:black;
+}
+
+.vid-container{
+  display: flex;
+  position: absolute;
+  width:100vw;
+  height:100vh;
+}
+
+.bg-container{
+  width:100vw;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  position: ;
+  z-index: -1;
+}
+
+.bg{
+  display: flex;
+  z-index: -1;
+  width:100%;
+  height:100%;
+background-image: url(aura.jpg);
+background-repeat:repeat-x;
+  background-size:contain;
+}
+
+.bg2{
+  display: flex;
+  z-index: -1;
+  width:100%;
+  height:100%;
+  background-image: url(aura2.jpg);
+  background-repeat:repeat-x;
+    background-size: contain;
+}
+
+/* small=320,180
+medium=480,270
+large=640,360 */
+
+.vid{
+  position: absolute;
+  z-index:1;
+  width:480px;
+  height:270px;
+  margin-top: 130px;
+  transform:rotate(90deg);
+  background:;
+}
+
+.vid2{
+  position: absolute;
+  z-index:1;
+  width:320px;
+  height:180px;
+  margin-top:56vh;
+  margin-left:5vw;
+  background: ;
+}
+
+.vid3{
+  position: absolute;
+  z-index:1;
+  width:320px;
+  height:180px;
+  margin-top: 50px;
+  margin-left: 55vw;
+  background: ;
+}
+
+.vid4{
+  position: absolute;
+  z-index:2;
+  width:480px;
+  height:270px;
+  margin-top: 299px;
+  margin-left:58vw;
+  transform:rotate(270deg);
+  background:;
+}
+
+.vid5{
+  position: absolute;
+  z-index:1;
+  width:320px;
+  height:180px;
+  margin-top: 75vh;
+  margin-left: 35vw;
+  transform:rotate(90deg);
+  background:;
+}
+
+.vid6{
+  position: absolute;
+  z-index:2;
+  width:320px;
+  height:180px;
+  margin-top: 100vh;
+  margin-left: 49vw;
+  transform:;
+  background:;
+}
+
+.vid7{
+  position: absolute;
+  z-index:1;
+  width:640px;
+  height:360px;
+  margin-top: 120vh;
+  margin-left: 25vw;
+  transform:;
+  background:;
+}
+
+.vid8{
+  position: absolute;
+  z-index:1;
+  width:480px;
+  height:270px;
+  margin-top: 190vh;
+  margin-left:;
+  transform:rotate(90deg);
+  background:red;
+}
+
+.vid9{
+  position: absolute;
+  z-index:1;
+  width:480px;
+  height:270px;
+  margin-top: 190vh;
+  margin-left:52vw;
+  transform:rotate(270deg);
+  background:orange;
+}
+
+.vid10{
+  position: absolute;
+  z-index:2;
+  width:320px;
+  height:180px;
+  margin-top:225vh;
+  margin-left:8vw;
+  background:yellow;
+}
+
+.vid11{
+  position: absolute;
+  z-index:0;
+  width:640px;
+  height:360px;
+  margin-top:235vh;
+  margin-left:20vw;
+  background:green;
+}
