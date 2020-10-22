@@ -126,7 +126,7 @@ large=640,360 */
   margin-top: 190vh;
   margin-left:;
   transform:rotate(90deg);
-  background:red;
+  background:;
 }
 
 .vid9{
@@ -137,7 +137,7 @@ large=640,360 */
   margin-top: 190vh;
   margin-left:52vw;
   transform:rotate(270deg);
-  background:orange;
+  background:;
 }
 
 .vid10{
@@ -147,7 +147,7 @@ large=640,360 */
   height:180px;
   margin-top:225vh;
   margin-left:8vw;
-  background:yellow;
+  background:;
 }
 
 .vid11{
@@ -157,5 +157,5 @@ large=640,360 */
   height:360px;
   margin-top:235vh;
   margin-left:20vw;
-  background:green;
+  background:;
 }
