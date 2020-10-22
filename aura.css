@@ -159,3 +159,33 @@ large=640,360 */
   margin-left:20vw;
   background:;
 }
+
+.vid12{
+  position: absolute;
+  z-index:0;
+  width:320px;
+  height:180px;
+  margin-top:315vh;
+  margin-left:53vw;
+  background:;
+}
+
+.vid13{
+  position: absolute;
+  z-index:1;
+  width:320px;
+  height:180px;
+  margin-top:288vh;
+  margin-left:50vw;
+  background:;
+}
+
+.vid14{
+  position: absolute;
+  z-index:0;
+  width:480px;
+  height:270px;
+  margin-top:300vh;
+  margin-left:8vw;
+  background:;
+}
